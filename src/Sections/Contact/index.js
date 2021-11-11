@@ -134,10 +134,10 @@ const Contact = () => {
           {" "}
           <img src={Facebook} alt="Facebook" />
         </a>
-        <a href="https://www.linkedin.com//">
+        <a href="https://www.linkedin.com/in/mworia-br/">
           <img src={LinkedId} alt="LinkedId" />
         </a>
-        <a href="https://twitter.com/">
+        <a href="https://twitter.com/mworia_br">
           <img src={Twitter} alt="Twitter" />
         </a>
         <a href="https://www.instagram.com/">
@@ -146,11 +146,11 @@ const Contact = () => {
       </Icons>
       <Form>
         <Row>
-          <input name="name" type="text" placeholder="your name" />
+          <input name="name" type="text" placeholder="Your name" />
           <input
             name="email"
             type="email"
-            placeholder="enter working email id"
+            placeholder="Enter your email id"
           />
         </Row>
         <textarea
@@ -158,7 +158,7 @@ const Contact = () => {
           id=""
           cols="30"
           rows="2"
-          placeholder="your message"
+          placeholder="Message"
         ></textarea>
         <div style={{ margin: "0 auto" }}>
           <button
